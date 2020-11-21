@@ -12,7 +12,7 @@
 
 # This script is used in everything except for Brief Calculus, which has a different layout.
 
-# See https://github.com/bcrowell/lm/blob/master/INTERNALS for documentation on all the files: geom.pos, marg.pos, chNN.pos,
+# See INTERNALS for documentation on all the files: geom.pos, marg.pos, chNN.pos,
 # figfeedbackNN, all.pos.
 
 require 'tempfile'

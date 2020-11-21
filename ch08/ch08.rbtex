@@ -1015,6 +1015,41 @@ adding another hemispherical shell to complete the sphere. I thank P. Allen for 
 of this topic.
 \end{eg}
 <% end_sec %> % The Newtonian limit
+<% begin_sec("A sort of global conservation law") %>\label{sec:weak-conservation-of-energy}
+We saw in sec.~\ref{sec:no-conservation-laws}, p.~\pageref{sec:no-conservation-laws}, that although the energy-momentum of
+matter fields is strictly locally conserved, we cannot typically extend this to any kind of global conservation law
+if the spacetime is curved. This is because Gauss's theorem fails in a curved spacetime. However, we can make at least
+some global inferences about energy, if we assume the DEC.
+
+As a concrete example, consider the old steady-state
+cosmological models (discussed in more detail for their historical interest in sec.~\ref{sec:steady-state},
+p.~\pageref{sec:steady-state}). In these models, as the universe expands, hydrogen atoms spontaneously pop
+into existence in such a way that there is never any dilution of the universe's matter on the average.
+The proponents of these models realized early on that they would require some modification of general
+relativity. For suppose that we have some empty region of spacetime small enough so that curvature can be
+neglected, and then a hydrogen atom appears in it. Spacetime itself is not supposed to have a preferred
+reference frame according to general relativity, but the newborn atom defines one. For an observer in the
+atom's rest frame, whose time coordinate is $t$, we have $\partial_\kappa T^{\kappa t}=\partial T^{tt}/\partial t\ne 0$.
+The stress-energy tensor has a nonzero divergence, which cannot happen in a spacetime that is a solution of
+the Einstein field equations.
+
+The idea here is that although it is possible to trade gravitational energy (which is not counted in the stress-energy) for the energy of matter fields, we must always do so in such a way that to a local, free-falling observer, energy appears to be conserved. This is the equivalence principle.
+
+What I gave above is only an argument that rules out one specific
+example, in which a hydrogen atom spontaneously pops into
+existence. The only fact about this matter field that was used in the
+argument was that it was possible to define a local Minkowski frame in
+which the matter field was at rest. This is equivalent to assuming the DEC
+(as a strict inequality). The DEC ensures that the flow of energy is
+subluminal, so that we can define such a frame. The condition can be
+relaxed to the normal, less strict definition of the DEC as a
+non-strict inequality (see Hawking and Ellis, p.~94, or Wald, p.~219),
+while still allowing the following theorem to be proved: if the stress-energy
+vanishes initially on any spacelike surface, and if the DEC holds, then the
+stress-energy also vanishes everywhere inside the past and future light cones
+of this surface.
+
+<% end_sec %> % 
 <% begin_sec("Singularity theorems") %>\label{singularity-theorems}\index{singularity theorems}\index{Penrose-Hawking singularity theorems}
 An important example of the use of the energy conditions is that Hawking and Ellis
 have proved that under the assumption of the strong energy condition, 

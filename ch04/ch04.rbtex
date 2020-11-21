@@ -1105,6 +1105,7 @@ behave like energy and momentum, for the
 motion of a test particle in a particular metric that has a certain symmetry. This is generalized 
 on p.~\pageref{sec:killing-conservation} to a general, global conservation law corresponding to every
 continuous symmetry of a spacetime.
+A weak kind of energy conservation can be proved as well in a general spacetime; see sec.~\ref{sec:weak-conservation-of-energy}.
 <% end_sec %> % No general conservation laws
 <% begin_sec("Conservation of angular momentum and frame dragging") %>\label{sec:frame-dragging}
 Another special case where conservation laws work is that if the spacetime we're studying gets very flat at large distances
