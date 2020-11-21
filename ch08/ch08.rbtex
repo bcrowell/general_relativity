@@ -2653,9 +2653,7 @@ constant is definitely positive.
           nearly the same $z$.}
   )
 %>
-<% end_marg %>
-
-<% marg() %>
+\spacebetweenfigs
 <%
   fig(
     'eisenstein-bao',
