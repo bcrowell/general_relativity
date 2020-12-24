@@ -1073,7 +1073,7 @@ by Eddington and Finkelstein in 1958, establishing that the singularity was only
 Thus, if an observer is so unlucky as to fall into a black hole, he will not be subjected to infinite tidal stresses
 --- or infinite anything --- at $r=2m$. 
 He may not notice anything special at all about his local environment. (Or he may already be dead because the tidal stresses at $r>2m$, although finite, were
-nevertheless great enough to kill him.)
+nevertheless great enough to kill him. See problem \ref{hw:spaghetti-death}.)
 
 <% end_sec %> % singularities
 <% begin_sec("Event horizon",nil,'black-hole-horizon') %>\index{black hole!event horizon}
@@ -2036,6 +2036,13 @@ spacetime, for a particle with zero or nonzero mass,
 the distance of closest approach much be greater than or equal to the Schwarzschild radius
 $2m$. (Note that it \emph{is} possible to have trajectories that pass out through the horizon, although we
 don't expect to observe such trajectories in the case of an astrophysical black hole.)\hwsoln
+<% end_hw %>
+
+
+<% begin_hw('spaghetti-death') %>
+An astronaut in a spacesuit falls into a black hole. Estimate an order-of-magnitude inequality for
+the mass of the black hole if the astronaut is to survive past the event horizon without being killed
+by tidal forces.
 <% end_hw %>
 
 
